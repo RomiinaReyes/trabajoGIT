@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CACjC",
-    "sources": [
-        "occupations.scss"
-    ],
-    "names": [],
-    "file": "occupations.css"
-}
