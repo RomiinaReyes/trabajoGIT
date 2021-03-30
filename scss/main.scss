@@ -1,58 +1,24 @@
+@import 'utilities/variables';
+@import 'utilities/functions';
+@import 'utilities/mixins';
 
+@import 'vendors/bootstrap';
+@import 'vendors/jquery-ui';
 
-$colorlightgreen: lightgreen;
-$colorblack: black;
+@import 'base/reset';
+@import 'base/typo';
 
-body{
-    background-color: lightgreen;
-}
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/forms';
 
+@import 'components/buttons';
+@import 'components/jumbo';
 
-.divbanner{
+@import 'pages/home';
+@import 'pages/contact';
 
-    ul{
-        li{
-            h1{
-                color:black
-                display:
-                ustify-content:
-                text-align:
-                font-size:
-            }
-        }
-    }
-
-}
-
-.divbanner__logo{
-
-}
-
-h1{
-
-}
-
-
-.navbar{
-
-}
-
-.navbar__menu{
-
-}
-
-.navbar__button{
-    background-color: #c072ec;
-}
-
-.occupation{
-    h3{
-    
-    }
-}
-
-.tittle{
-    h2{
-
-    }
-}
+@import 'themes/theme';
+@import 'themes/admin';
