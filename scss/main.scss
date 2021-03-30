@@ -6,7 +6,7 @@
 @import 'vendors/jquery-ui';
 
 @import 'base/reset';
-@import 'base/typo';
+@import 'base/base';
 
 @import 'layout/navigation';
 @import 'layout/grid';
@@ -17,8 +17,8 @@
 @import 'components/buttons';
 @import 'components/jumbo';
 
-@import 'pages/home';
-@import 'pages/contact';
+@import 'views/home';
+@import 'views/contact';
 
 @import 'themes/theme';
 @import 'themes/admin';
