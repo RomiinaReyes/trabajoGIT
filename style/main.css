@@ -19,11 +19,17 @@ body{
 }
 .divbanner__li{
 
-    h1{
-    }
 }
 
 .divbanner__logo{
+}
+
+h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
 }
 
 .navbar{
@@ -122,17 +128,39 @@ footer{
         flex-direction: column;
         align-items: center;
     }
-    .occupation{
+    .heading{
         flex-direction: column;
         align-items: center;
     }
     .navbar__gallery{
         flex-direction: column;
     }
+    .navbar_gallery_li{
+
+    }
+
+    .navbargallery__logo{
+
+    }
     body{
         width: 100%;
     }
 }
+
+.form{
+
+}
+h3{
+
+}
+.form_input{
+
+}
+
+.form_textarea{
+
+}
+
 /**
 .logo{
     width: 200px;

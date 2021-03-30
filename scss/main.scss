@@ -6,31 +6,28 @@ $colorblack: black;
 body{
     background-color: lightgreen;
 }
+*{
+    margin: 0;
+    box-sizing:border-box ;
+}
 
-
-.divbanner{
-
-    ul{
-        li{
-            h1{
-                color:black
-                display:
-                ustify-content:
-                text-align:
-                font-size:
-            }
-        }
-    }
+.divbanner__li{
 
 }
+h1{
+                color:black
+                display:flex;
+                justify-content:center;
+                text-align:center;
+                font-size:medium;
+            }
+            
 
 .divbanner__logo{
-
+    width: 200px;
+    height:200px;
 }
 
-h1{
-
-}
 
 
 .navbar{
