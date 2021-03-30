@@ -8,7 +8,7 @@ body{
     margin: 0;
     box-sizing:border-box ;
 }
-.banner{
+.divbanner{
     list-style: none;
     background: #41f36e;
     padding: 10px;
@@ -17,7 +17,23 @@ body{
     flex-flow:row wrap-reverse;
     align-items: baseline;
 }
-.menu{
+.divbanner__li{
+
+    h1{
+    }
+}
+
+.divbanner__logo{
+}
+
+.navbar{
+    background: #c072ec;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar__menu{
     display: inline-block;
     background-color: #a9fb9b;
     color:black;
@@ -25,32 +41,40 @@ body{
     padding: 10px;
     text-decoration: none;
 }
+
+.navbar__button{
+
+}
 .menu:hover{
-    background: #a9fb9b;
+    background: #e89bfb;
 }
-.principal{
-    background: #c072ec;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-}
+
 .occupation{
     background: #c072ec;
     padding: 10px;
     display: flex;
     justify-content: space-between;
 }
+
+h3{
+
+}
+
 .title{
     text-align: center;
 }
-.service{
+h2{
+
+}
+
+.navbar__gallery{
     padding: 10px 0px;
     width: 100%;
     box-sizing: border-box;
     align-items: baseline;
     margin-top: 20px; 
 }
-.gallery{
+.navbar_gallery_li{
     list-style: none;
     background: #c072ec;
     padding: 20px 10px;
@@ -58,10 +82,26 @@ body{
     display: flex;
     justify-content: space-around;
 }
-.form{
-    align-items: center;
-    text-align: center;
+
+.navbargallery__logo{
+    width: 200px;
+    height: 200px;
 }
+
+.form{
+    h3{
+        align-items: center;
+        text-align: center;
+    }
+    
+}
+.form_input{
+
+}
+.form_textarea{
+
+}
+
 footer{
     background: #41f36e;
     padding: 10px;
@@ -70,11 +110,15 @@ footer{
     box-sizing: border-box;
     text-align: center;
 }
+.contact_parrafo{
+    
+}
+
 @media(max-width:800px){
     .principal{
         flex-direction: column;
     }
-    .banner{
+    .divbanner{
         flex-direction: column;
         align-items: center;
     }
@@ -82,7 +126,7 @@ footer{
         flex-direction: column;
         align-items: center;
     }
-    .gallery{
+    .navbar__gallery{
         flex-direction: column;
     }
     body{

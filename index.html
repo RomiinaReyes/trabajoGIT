@@ -7,17 +7,16 @@
     <title>Lawen Natura fitocosmética natural</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
 </head>
-
-
 <body>
     <header>
         <article>
-            <div>
-                <ul class="banner">
-                    <li>
-                        <img src="assets/images/logo.png" alt="logo" width="100" height="100">
+            <div class="divbanner">
+                <ul>
+                    <li class="divbanner__li"> 
+                        <img class="divbanner__logo" src="assets/images/logo.png" alt="logo" width="100" height="100">
                     </li>
                     <li>
                         <h1>Lawen Natura productos naturales</h1>
@@ -26,11 +25,11 @@
             </div>
         </article>
         <header>
-            <nav class="principal">
-                <a href="#" class="menu">Inicio</a>
-                <a href="#" class="menu">Quienes somos</a>
-                <a href="#" class="menu">Productos</a>
-                <a href="https://www.instagram.com/lawen.natura/" target="_blank" class="menu">Instagram</a>
+            <nav class="navbar">
+                <a href="#" class="navbar__menu">Inicio</a>
+                <a href="#" class="navbar__menu">Quienes somos</a>
+                <a href="#" class="navbar__menu">Productos</a>
+                <button type="navbar__button"><a href="https://www.instagram.com/lawen.natura/" target="_blank" >Instagram</a></button>
             </nav>
         </header>
         <section>
@@ -39,29 +38,31 @@
                 <h3>Productos de cuidado personal</h3>
             </header>
             <br>
-            <article class=title>
+            <article class="title">
                 <br>
                 <h2>Productos</h2>
-                <nav class="service">
+            </article>
+
+                <nav class="navbar__gallery">
                     <div>
-                        <ul class="gallery">
-                            <li>
-                                <img src="assets/images/jabon.avenamiel.jpeg" alt="Jabon avena miel" width="200" height="200">
+                        <ul>
+                            <li class="navbar_gallery_li">
+                                <img class="navbargallery__logo" src="assets/images/jabon.avenamiel.jpeg" alt="Jabon avena miel" width="200" height="200">
                                 <figcaption>Jabones exfoliantes y para masajes.</figcaption>
                             </li>
                             <br>
-                            <li>
-                                <img src="assets/images/jabon.redondo.jpeg" alt="jabones pequeños" width="200" height="200">
+                            <li class="navbar_gallery_li">
+                                <img class="navbargallery__logo" src="assets/images/jabon.redondo.jpeg" alt="jabones pequeños" width="200" height="200">
                                 <figcaption>Jabones de mano.</figcaption>
                             </li>
                             <br>
-                            <li>
-                                <img src="assets/images/crema-calendula.png" alt="unguento cicatrizante" width="200" height="200">
+                            <li class="navbar_gallery_li">
+                                <img class="navbargallery__logo" src="assets/images/crema-calendula.png" alt="unguento cicatrizante" width="200" height="200">
                                 <figcaption>Unguentos medicinales.</figcaption>
                             </li>
                             <br>
-                            <li>
-                                <img src="assets/images/aceite-rosa.png" alt="nft" width="200" height="200">
+                            <li class="navbar_gallery_li">
+                                <img class="navbargallery__logo" src="assets/images/aceite-rosa.png" alt="nft" width="200" height="200">
                                 <figcaption>Oleatos.</figcaption>
                             </li>
                             <br>
@@ -71,35 +72,37 @@
         </section>
         <section>
             <aside>
-                <form class="form">
-                    <h3>Solicita Información</h3>
-                    <h3>Haz tus consultas</h3>
-                    <label>Nombre</label>
-                    <br>
-                    <input type="text" required>
-                    <br>
-                    <label>email</label>
-                    <br>
-                    <input type="email" required>
-                    <br>
-                    <label>Telefono</label>
-                    <br>
-                    <input type="tel" required>
-                    <br>
-                    <label>Mensaje</label>
-                    <br>
-                    <textarea cols="30" rows="10"></textarea>
-                    <br>
-                    <input type="submit" value="Enviar">
-                </form>
+                <fieldset>
+                    <form class="form">
+                        <h3>Solicita Información</h3>
+                        <h3>Haz tus consultas</h3>
+                        <label>Nombre</label>
+                        <br>
+                        <input class="form_input" type="text" required>
+                        <br>
+                        <label>email</label>
+                        <br>
+                        <input class="form_input" type="email" required>
+                        <br>
+                        <label>Telefono</label>
+                        <br>
+                        <input class="form_input" type="tel" required>
+                        <br>
+                        <label>Mensaje</label>
+                        <br>
+                        <textarea class="form_textarea" cols="30" rows="10"></textarea>
+                        <br>
+                        <input class="form_input" type="submit" value="Enviar">
+                    </form>
+                </fieldset>
             </aside>
         </section>
         <br>
         <footer>
             <div class=contact>
-                <p>Contactanos: +56 9 67671916 </p>
-                <p>mail: r.reyes.cataldo@gmail.com</p>
-                <p>Talleres online de fitocosmetica natural.</p>
+                <p class= "contact_parrafo" >Contactanos: +56 9 67671916 </p>
+                <p class= "contact_parrafo" >mail: r.reyes.cataldo@gmail.com</p>
+                <p class= "contact_parrafo" >Talleres online de fitocosmetica natural.</p>
             </div>
         </footer>
 </body>
