@@ -1,9 +1,11 @@
 .divbanner{
-    list-style: none;
     background: $color-two;
     padding: 10px;
     text-align: center;
     display: flex;
     flex-flow:row wrap-reverse;
     align-items: baseline;
+}
+.divbanner__ul{
+    list-style: none;
 }

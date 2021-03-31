@@ -1,3 +1,39 @@
+@media (max-width: 800px) {
+  .principal {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .divbanner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .occupation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar__gallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body {
+    width: 100%;
+  }
+}
+
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -5,7 +41,7 @@
 }
 
 body {
-  background-color: lightgreen;
+  background-color: #90ee90;
   font-family: 'Montserrat', sans-serif;
   font-size: medium;
 }
@@ -29,16 +65,7 @@ footer {
   text-align: center;
 }
 
-.form_botton {
-  margin: 10px;
-  padding: 20px 50px;
-  width: 100%;
-  text-align: center;
-  background: center;
-}
-
 .divbanner {
-  list-style: none;
   background: #41f36e;
   padding: 10px;
   text-align: center;
@@ -54,9 +81,21 @@ footer {
           align-items: baseline;
 }
 
+.divbanner__ul {
+  list-style: none;
+}
+
+.form_botton {
+  margin: 10px;
+  padding: 20px 50px;
+  width: 100%;
+  text-align: center;
+  background: center;
+}
+
 .gallery {
   list-style: none;
-  background: lightgreen;
+  background: #90ee90;
   padding: 20px 10px;
   font-weight: bolder;
   display: -webkit-box;
@@ -131,4 +170,18 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/*# sourceMappingURL=main.css.map */
+
+.title {
+  text-align: center;
+}
+
+.title h2 {
+  padding: 10px 0px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-top: 20px;
+}
