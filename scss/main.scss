@@ -4,12 +4,20 @@
 @import 'base/base';
 
 
+@import 'utilities/mixins'; 
+@import 'utilities/variables'; 
+
+@import 'base/base';
+
 @import 'layout/footer';
 @import 'layout/forms';
 
-@import 'components/buttons';
 @import 'components/banner';
+@import 'components/buttons';
 @import 'components/gallery';
 @import 'components/nav';
 @import 'components/occupations';
 @import 'components/title';
+
+@import 'themes/theme';
+
