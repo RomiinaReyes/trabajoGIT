@@ -1,13 +1,13 @@
-body {
-  background-color: lightgreen;
-  font-family: 'Montserrat', sans-serif;
-  font-size: medium;
-}
-
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  background-color: lightgreen;
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
 }
 
 footer {
@@ -56,7 +56,7 @@ footer {
 
 .gallery {
   list-style: none;
-  background: #2d9a8a;
+  background: lightgreen;
   padding: 20px 10px;
   font-weight: bolder;
   display: -webkit-box;
@@ -66,26 +66,7 @@ footer {
       justify-content: space-around;
 }
 
-.navbar {
-  background: #c072ec;
-  padding: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.navbar__menu {
-  display: inline-block;
-  background-color: #a9fb9b;
-  color: black;
-  font-weight: bold;
-  padding: 10px;
-  text-decoration: none;
-}
-
-.navbar__gallery {
+.gallery .navbar__gallery {
   padding: 10px 0px;
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -96,9 +77,9 @@ footer {
   margin-top: 20px;
 }
 
-.navbar__gallery__li {
+.gallery .navbar__gallery .navbar__gallery__li {
   list-style: none;
-  background: #c072ec;
+  background: #c074ec;
   padding: 20px 10px;
   font-weight: bolder;
   display: -webkit-box;
@@ -108,12 +89,39 @@ footer {
       justify-content: space-around;
 }
 
-.navbargallery__logo {
+.gallery .navbar__gallery .navbar__gallery__li .navbar__gallery__logo {
   width: 200px;
   height: 200px;
 }
 
-.occupation {
+.navbar {
+  background: #c074ec;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navbar .navbar__menu {
+  display: inline-block;
+  background-color: #a9fb9b;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navbar:hover {
+  background: #c074ec;
+}
+
+.navbar__menu:hover {
+  background: #9e4ecc;
+}
+
+.heading {
   background: #c072ec;
   padding: 10px;
   display: -webkit-box;
