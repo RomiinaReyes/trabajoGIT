@@ -47,13 +47,10 @@ h1{
     padding: 10px;
     text-decoration: none;
 }
-
-.navbar__button{
-
-}
+/**
 .menu:hover{
     background: #e89bfb;
-}
+}**/
 
 .heading{
     background: #c072ec;
@@ -70,7 +67,9 @@ h3{
     text-align: center;
 }
 h2{
+    p{
 
+    }
 }
 
 .navbar__gallery{
@@ -116,9 +115,12 @@ footer{
     box-sizing: border-box;
     text-align: center;
 }
-.contact_parrafo{
+.contact{
+    .contact_parrafo{
     
+    }
 }
+
 
 @media(max-width:800px){
     .principal{
