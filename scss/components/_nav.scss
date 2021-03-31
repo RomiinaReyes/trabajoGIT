@@ -1,0 +1,33 @@
+.navbar{
+    background: #c072ec;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar__menu{
+    display: inline-block;
+    background-color: #a9fb9b;
+    color:black;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar__gallery{
+    padding: 10px 0px;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: baseline;
+    margin-top: 20px; 
+}
+.navbar__gallery__li{
+    list-style: none;
+    background: #c072ec;
+    padding: 20px 10px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+}
+.navbargallery__logo{
+    width: 200px;
+    height: 200px;
+}

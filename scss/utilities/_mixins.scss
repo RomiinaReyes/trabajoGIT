@@ -1,0 +1,22 @@
+.menu:hover{
+    background: #e89bfb;
+}
+@media(max-width:800px){
+    .principal{
+        flex-direction: column;
+    }
+    .divbanner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .occupation{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar__gallery{
+        flex-direction: column;
+    }
+    body{
+        width: 100%;
+    }
+}
