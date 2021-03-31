@@ -1,11 +1,9 @@
 @import 'utilities/variables';
+@import 'utilities/mixins';
 
-@import 'vendors/bootstrap';
 @import 'base/base';
 
-@import 'layout/navigation';
-@import 'layout/grid';
-@import 'layout/header';
+
 @import 'layout/footer';
 @import 'layout/forms';
 
@@ -14,9 +12,4 @@
 @import 'components/gallery';
 @import 'components/nav';
 @import 'components/occupations';
-
-@import 'views/home';
-@import 'views/contact';
-
-@import 'themes/theme';
-@import 'themes/admin';
+@import 'components/title';
