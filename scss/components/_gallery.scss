@@ -1,8 +1,30 @@
-.gallery {
+.gallery{
     list-style: none;
-    background: #2d9a8a;
+    background: $color-one;
     padding: 20px 10px;
     font-weight: bolder;
     display: flex;
     justify-content: space-around;
+
+    .navbar__gallery{
+        padding: 10px 0px;
+        width: 100%;
+        box-sizing: border-box;
+        align-items: baseline;
+        margin-top: 20px; 
+
+        .navbar__gallery__li{
+            list-style: none;
+            background:$color-three;
+            padding: 20px 10px;
+            font-weight: bolder;
+            display: flex;
+            justify-content: space-around;
+    
+            .navbar__gallery__logo{
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
 }
